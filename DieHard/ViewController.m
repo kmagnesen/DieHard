@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Die.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *dieLabel;
@@ -20,6 +21,9 @@
 
 }
 - (IBAction)onDieButtonTapped:(UIButton *)sender {
+
+    Die *die = [[Die alloc]init];
+    [die roll];
 }
 
 

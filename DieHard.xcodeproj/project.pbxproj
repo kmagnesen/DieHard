@@ -14,6 +14,7 @@
 		F9C0358B1A66E8040091FBD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C0358A1A66E8040091FBD7 /* Images.xcassets */; };
 		F9C0358E1A66E8040091FBD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C0358C1A66E8040091FBD7 /* LaunchScreen.xib */; };
 		F9C0359A1A66E8040091FBD7 /* DieHardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C035991A66E8040091FBD7 /* DieHardTests.m */; };
+		F9C035A51A66EB9A0091FBD7 /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C035A41A66EB9A0091FBD7 /* Die.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F9C035931A66E8040091FBD7 /* DieHardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DieHardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C035981A66E8040091FBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9C035991A66E8040091FBD7 /* DieHardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DieHardTests.m; sourceTree = "<group>"; };
+		F9C035A31A66EB9A0091FBD7 /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Die.h; path = ../Die.h; sourceTree = "<group>"; };
+		F9C035A41A66EB9A0091FBD7 /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Die.m; path = ../Die.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F9C035821A66E8040091FBD7 /* AppDelegate.m */,
 				F9C035841A66E8040091FBD7 /* ViewController.h */,
 				F9C035851A66E8040091FBD7 /* ViewController.m */,
+				F9C035A31A66EB9A0091FBD7 /* Die.h */,
+				F9C035A41A66EB9A0091FBD7 /* Die.m */,
 				F9C035871A66E8040091FBD7 /* Main.storyboard */,
 				F9C0358A1A66E8040091FBD7 /* Images.xcassets */,
 				F9C0358C1A66E8040091FBD7 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				F9C035861A66E8040091FBD7 /* ViewController.m in Sources */,
 				F9C035831A66E8040091FBD7 /* AppDelegate.m in Sources */,
+				F9C035A51A66EB9A0091FBD7 /* Die.m in Sources */,
 				F9C035801A66E8040091FBD7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
